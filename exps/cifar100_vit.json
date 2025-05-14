@@ -1,5 +1,5 @@
 {
-    "model_name":"CPrompt",
+    "model_name":"TTPNet",
     "dataset": "cifar100_vit",
     "epochs": 18,
     "shuffle":true,
@@ -10,7 +10,7 @@
     "tau": 1.2,
     "margin":0,
     "alpha":1.0,
-    "batch_size":16,
+    "batch_size":64,
     "device": ["0"],
     "seed": [1993,87,1013],
     "APG_MLP_num": 1, 

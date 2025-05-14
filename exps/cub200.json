@@ -1,14 +1,14 @@
 {
-    "model_name":"CPrompt",
-    "dataset": "cifar100_vit",
-    "epochs": 18,
+    "model_name":"TTPNet",
+    "dataset": "cub200",
+    "epochs": 10,
     "shuffle":true,
-    "init_cls": 10,
-    "increment": 10,
+    "init_cls": 20,
+    "increment": 20,
     "lr":1e-2,
     "weight_decay":5e-4,
-    "tau": 1.2,
-    "margin":0,
+    "tau": 1.15,
+    "margin":0.1,
     "alpha":1.0,
     "batch_size":16,
     "device": ["0"],
@@ -21,5 +21,5 @@
     "APG_attn_depth": 1,
     "APG_use_update_tokens": false,
     "APG_cross_attn_wo_x": true,
-    "APG_residual": false
+    "APG_residual": true
 }
